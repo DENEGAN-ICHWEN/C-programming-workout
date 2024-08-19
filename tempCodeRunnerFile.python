@@ -1,0 +1,25 @@
+"""
+Convina las 2 primeras letras de un string con las dos ultimas de otro.
+Date: 17/07/2022
+Author: Clay Felipe Charry Pinzón
+Email: clayfelipepinzon@gmail.com
+"""
+
+def primeras_ultimas(string1: str, string2: str)-> str:
+    """
+    Fución que combina los dos primeros caracteres de un string
+    con los dos ultimos de un segundo string. Ambos strings
+    deben tener más de dos caracteres.
+
+    Args:
+        string1 (str): Una cadena de caracteres mayor a 2
+        string2 (str): Una cadena de caracteres mayor a 2
+
+    Returns:
+        str: Un string con los dos primeros caracteres del
+        string1 y los dos ultimos del string2
+    """    
+    
+    return string1[0:2 + string2[-1:-3]]
+
+print(primeras_ultimas("eso", "cayo"))

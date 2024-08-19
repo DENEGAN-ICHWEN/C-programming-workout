@@ -1,0 +1,5 @@
+The program works well as the average is calculated in the line (avg += (x - avg)/i) which sums to the past
+average the value lacking to get a new averga with a new value entered. It is a pretty efficient and correcto program.
+
+On the other hand, when we enter a very large number, the print shows as a message #INFO+..., so using double, does not work
+everytime for finding the average.

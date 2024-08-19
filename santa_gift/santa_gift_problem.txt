@@ -1,0 +1,10 @@
+description of the problem
+In Santa Claus's gift workshop, the CTE (Chief Technology Elf) has decided to implement a new gift classification system,
+to facilitate their organization. Each packet now has a unique numeric identifier. The identifier is an integer between 100
+and 999, and is used to classify gifts as follows.
+
+If the number is palindrome and odd, the gift corresponds to a girl.
+If the number is palindrome and even, the gift corresponds to a child.
+If the number is even, but not a palindrome, the gift corresponds to a man.
+If the number is odd, but not palindrome, the gift corresponds to a woman.
+Write a function that helps the CTE calculate, given a unique gift identifier, what type of person the gift corresponds to.
